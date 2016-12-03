@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		005B757FF195BA16643FB457 /* Pods_Social_Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B283010B20E608BB53345177 /* Pods_Social_Network.framework */; };
+		085B3EE71DF32BF20043DD59 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B3EE61DF32BF20043DD59 /* Constants.swift */; };
+		085B3EE91DF32CC70043DD59 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B3EE81DF32CC70043DD59 /* FancyView.swift */; };
+		085B3EEB1DF32E330043DD59 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B3EEA1DF32E330043DD59 /* FancyBtn.swift */; };
+		085B3EED1DF3310F0043DD59 /* FancyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B3EEC1DF3310F0043DD59 /* FancyText.swift */; };
+		085B3EEF1DF332CE0043DD59 /* FancySignBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B3EEE1DF332CE0043DD59 /* FancySignBtn.swift */; };
 		08A535271DF192DB005BF270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A535261DF192DB005BF270 /* AppDelegate.swift */; };
 		08A535291DF192DB005BF270 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A535281DF192DB005BF270 /* SignInVC.swift */; };
 		08A5352C1DF192DB005BF270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A5352A1DF192DB005BF270 /* Main.storyboard */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		085B3EE61DF32BF20043DD59 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		085B3EE81DF32CC70043DD59 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		085B3EEA1DF32E330043DD59 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		085B3EEC1DF3310F0043DD59 /* FancyText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyText.swift; sourceTree = "<group>"; };
+		085B3EEE1DF332CE0043DD59 /* FancySignBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancySignBtn.swift; sourceTree = "<group>"; };
 		08A535231DF192DB005BF270 /* Social Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A535261DF192DB005BF270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08A535281DF192DB005BF270 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -42,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085B3EE51DF32BD80043DD59 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				085B3EE61DF32BF20043DD59 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		0866E35E1DF1ADA200D63934 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +70,10 @@
 		0866E35F1DF1ADA800D63934 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				085B3EE81DF32CC70043DD59 /* FancyView.swift */,
+				085B3EEA1DF32E330043DD59 /* FancyBtn.swift */,
+				085B3EEC1DF3310F0043DD59 /* FancyText.swift */,
+				085B3EEE1DF332CE0043DD59 /* FancySignBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -85,6 +107,7 @@
 		08A535251DF192DB005BF270 /* Social Network */ = {
 			isa = PBXGroup;
 			children = (
+				085B3EE51DF32BD80043DD59 /* Util */,
 				0866E35E1DF1ADA200D63934 /* Model */,
 				0866E3601DF1ADAE00D63934 /* Controller */,
 				0866E35F1DF1ADA800D63934 /* View */,
@@ -240,8 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085B3EEB1DF32E330043DD59 /* FancyBtn.swift in Sources */,
 				08A535291DF192DB005BF270 /* SignInVC.swift in Sources */,
 				08A535271DF192DB005BF270 /* AppDelegate.swift in Sources */,
+				085B3EEF1DF332CE0043DD59 /* FancySignBtn.swift in Sources */,
+				085B3EE91DF32CC70043DD59 /* FancyView.swift in Sources */,
+				085B3EED1DF3310F0043DD59 /* FancyText.swift in Sources */,
+				085B3EE71DF32BF20043DD59 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
